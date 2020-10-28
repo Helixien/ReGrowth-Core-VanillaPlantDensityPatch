@@ -13,14 +13,14 @@
                 <li Class="PatchOperationReplace">
                     <xpath>/Defs/BiomeDef[defName = "BorealForest"]/plantDensity</xpath>
                     <value>
-                        <plantDensity>1.0</plantDensity>
+                        <plantDensity>0.36</plantDensity>
                     </value>
 
                 <!-- ================ Biome Boreal Tundra ================ -->
                 <li Class="PatchOperationReplace">
                     <xpath>/Defs/BiomeDef[defName = "Tundra"]/plantDensity</xpath>
                     <value>
-                        <plantDensity>0.6</plantDensity>
+                        <plantDensity>0.19</plantDensity>
                     </value>
                 </li>
 
@@ -28,7 +28,7 @@
                 <li Class="PatchOperationReplace">
                     <xpath>/Defs/BiomeDef[defName = "ColdBog"]/plantDensity</xpath>
                     <value>
-                        <plantDensity>0.8</plantDensity>
+                        <plantDensity>0.60</plantDensity>
                     </value>
                 </li>
 

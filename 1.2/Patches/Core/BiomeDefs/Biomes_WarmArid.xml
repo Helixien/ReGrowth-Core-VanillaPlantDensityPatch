@@ -13,7 +13,7 @@
                 <li Class="PatchOperationReplace">
                     <xpath>/Defs/BiomeDef[defName = "AridShrubland"]/plantDensity</xpath>
                     <value>
-                        <plantDensity>0.72</plantDensity>
+                        <plantDensity>0.24</plantDensity>
                     </value>
                 </li>
 
@@ -21,7 +21,7 @@
                 <li Class="PatchOperationReplace">
                     <xpath>/Defs/BiomeDef[defName = "Desert"]/plantDensity</xpath>
                     <value>
-                        <plantDensity>0.25</plantDensity>
+                        <plantDensity>0.05</plantDensity>
                     </value>
                 </li>
 
@@ -29,7 +29,7 @@
                 <li Class="PatchOperationReplace">
                     <xpath>/Defs/BiomeDef[defName = "ExtremeDesert"]/plantDensity</xpath>
                     <value>
-                        <plantDensity>0.004</plantDensity>
+                        <plantDensity>0.002</plantDensity>
                     </value>
                 </li>
 

@@ -12,14 +12,14 @@
                 <li Class="PatchOperationReplace">
                     <xpath>/Defs/BiomeDef[defName = "TemperateForest"]/plantDensity</xpath>
                     <value>
-                        <plantDensity>1.2</plantDensity>
+                        <plantDensity>0.65</plantDensity>
                     </value>
 
 				<!-- ================ Biome Temperate Swamp ================ -->
 				<li Class="PatchOperationReplace">
 					<xpath>/Defs/BiomeDef[defName = "TemperateSwamp"]/plantDensity</xpath>
 					<value>
-						<plantDensity>1.8</plantDensity>
+						<plantDensity>0.80</plantDensity>
 					</value>
 				</li>
 
