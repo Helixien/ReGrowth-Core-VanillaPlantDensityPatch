@@ -15,7 +15,8 @@
                     <value>
                         <plantDensity>0.36</plantDensity>
                     </value>
-
+				</li>
+				
                 <!-- ================ Biome Boreal Tundra ================ -->
                 <li Class="PatchOperationReplace">
                     <xpath>/Defs/BiomeDef[defName = "Tundra"]/plantDensity</xpath>
