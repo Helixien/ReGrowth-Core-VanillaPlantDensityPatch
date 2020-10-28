@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Core</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+                <!-- ================ Biome Tropical Rainforest ================ -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/plantDensity</xpath>
+                    <value>
+                        <plantDensity>1.85</plantDensity>
+                    </value>
+                </li>
+				
+                <!-- ================ Biome Tropical Swamp================ -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/BiomeDef[defName = "TropicalSwamp"]/plantDensity</xpath>
+                    <value>
+                        <plantDensity>1.90</plantDensity>
+                    </value>
+                </li>
+
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>

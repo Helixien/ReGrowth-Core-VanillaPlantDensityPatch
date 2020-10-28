@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Core</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+
+                <!-- ================ Biome Boreal Forest ================ -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/BiomeDef[defName = "BorealForest"]/plantDensity</xpath>
+                    <value>
+                        <plantDensity>1.0</plantDensity>
+                    </value>
+
+                <!-- ================ Biome Boreal Tundra ================ -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/BiomeDef[defName = "Tundra"]/plantDensity</xpath>
+                    <value>
+                        <plantDensity>0.6</plantDensity>
+                    </value>
+                </li>
+
+                <!-- ================ Biome Cold Bog ================ -->
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/BiomeDef[defName = "ColdBog"]/plantDensity</xpath>
+                    <value>
+                        <plantDensity>0.8</plantDensity>
+                    </value>
+                </li>
+
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>
